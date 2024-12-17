@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="https://demy-doctor.glitch.me">
+    <meta property="og:description" content="Студія краси косметолога Demy_doctor. Надання всіх косметологічних послуг на вищому рівні. Проведення навчань, курсів, вебінарів офлайн та онлайн.">
+    <meta property="og:image" content="photo_title_new.jpg">
+    <title>Demy_doctor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Didact+Gothic&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+
+    <nav class="navbar" aria-label="Light offcanvas navbar" id="home">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Demy_doctor</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLightLabel">Demy_doctor</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="#firstPage"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                  </svg></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Послуги</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#price">Прайс</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#rehabilitation">Реабілітація</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#study">Навчання</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#oder">Замовлення препаратів</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Запис на прийом</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <!-- First page -->
+
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center" id="firstPage">
+        <div class="col-md-10 p-lg-5 mx-auto my-5">
+            <div class="video-container">
+                <video autoplay muted loop playsinline id="myVideo">
+                    <source src="video_demy.mp4" type="video/mp4">
+                </video>
+            </div>
+            <h1 class="display-3 fw-bold text1">Ласкаво просимо!</h1>
+            <h2 class="fw-normal mb-3 text2">В студію краси від Demy_doctor</h2>
+            <h3 class="fw-normal mb-3 text3">на процедури та навчання!</h3>
+            <div class="d-flex gap-3 justify-content-center lead fw-normal">
+                <div class="button">
+                    <a href="https://t.me/dr_demi" target="_blank"><button class="btn1"><span>Записатись на процедури</span></button></a>
+                    <a href="https://www.instagram.com/demy_doctor/" target="_blank"><button class="btn2"><span>Записатись на навчання</span></button></a>
+                </div>
+            </div>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+
+    <!-- Title page -->
+
+    <div id="title" class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="h-100 m-3">
+                <img class="imgTitle" src="photo_title.png" alt="Uliya" >
+            </div>
+        </div>
+        <div class="col">
+            <div class="titleText h-100 p-4 m-3">
+                <h2>Вітаю у студії Demy_doctor!</h2>
+                <br>
+                <p>
+                    Дякуємо, що завітали! Demy_doctor була заснована більше 12 років Юлією Демиденко косметологом з медичною освітою.
+                </p>
+                <p>
+                    В Demy_doctor надаються різні види косметологічних послуг на високому рівні. Також проводяться навчальні курси, вебінари, як для початківців так і для вже діючих косметологів. Які допоможуть вам збудувати кар'єру в цій області послуг.
+                </p>
+                <p>
+                    Крім цього, ви маєте можливість замовляти високоякісні матеріали, які перевірені кращими косметологами світу.
+                </p>
+            </div>
+        </div>
+
+        <div class="footerTitle">
+            <p id="footr">© 2024 Demy_doctor. All rights reserved. Website development by <a href="https://radmila-code.glitch.me" class="radmila_code">Radmila_Code</a></p>
+
+            <ul class="no-bullets">
+                <li>
+                    <a href="https://www.instagram.com/demy_doctor/" target="_blank">
+                    <img src="Instagram.png" alt="Instagram" class="social-icon"></a>
+                </li>
+                <li>
+                    <a href="https://t.me/dr_demi" target="_blank">
+                    <img src="telegram_3536705 1.png" alt="Telegram" class="social-icon"></a>
+                </li>
+            </ul>
+        </div> 
+    </div>
+
+    <!-- Services -->
+
+    <div id="services">
+        <div>
+            <h2 class="heading">Послуги</h2>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="IMG_services1.png" class="card-img-top slide1" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Губи</h5>
+                  <a href="#slide1" class="btn">Дізнатися більше</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="IMG_services2.png" class="card-img-top slide2" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ботулінотерапія</h5>
+                  <a href="#slide2" class="btn">Дізнатися більше</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="IMG_services3.png" class="card-img-top slide3" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Мезоботокс</h5>
+                  <a href="#slide3" class="btn">Дізнатися більше</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="IMG_services4.png" class="card-img-top slide4" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Біоревіталізація</h5>
+                  <a href="#slide4" class="btn">Дізнатися більше</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img src="IMG_services5.png" class="card-img-top slide5" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Ліполітики</h5>
+                    <a href="#slide5" class="btn">Дізнатися більше</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img src="IMG_services6.png" class="card-img-top slide6" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Нитки COG</h5>
+                    <a href="#slide6" class="btn">Дізнатися більше</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p id="footr">© 2024 Demy_doctor. All rights reserved. Website development by <a href="https://radmila-code.glitch.me" class="radmila_code">Radmila_Code</a></p>
+
+            <ul class="no-bullets">
+                <li>
+                    <a href="https://www.instagram.com/demy_doctor/" target="_blank">
+                    <img src="Instagram.png" alt="Instagram" class="social-icon"></a>
+                </li>
+                <li>
+                    <a href="https://t.me/dr_demi" target="_blank">
+                    <img src="telegram_3536705 1.png" alt="Telegram" class="social-icon"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Price -->
+
+    <div id="price">
+        <div>
+            <h2 class="headingPrice">Прайс</h2>
+        </div>
+
+        <div class="priceList">
+            <img class="imagePrice" src="photo_ price1.png" alt="" width="380px" height="553px">
+            <img class="imagePrice" src="photo_ price2.png" alt="" width="380px" height="553px">
+            <img class="imagePrice second" src="photo_ price3.png" alt="" width="380px" height="553px">
+            <img class="imagePrice" src="photo_ price4.png" alt="" width="380px" height="553px">
+        </div>
+
+        <div class="footer">
+            <p id="footr">© 2024 Demy_doctor. All rights reserved. Website development by <a href="https://radmila-code.glitch.me" class="radmila_code">Radmila_Code</a></p>
+
+            <ul class="no-bullets">
+                <li>
+                    <a href="https://www.instagram.com/demy_doctor/" target="_blank">
+                    <img src="Instagram.png" alt="Instagram" class="social-icon"></a>
+                </li>
+                <li>
+                    <a href="https://t.me/dr_demi" target="_blank">
+                    <img src="telegram_3536705 1.png" alt="Telegram" class="social-icon"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Rehabilitation -->
+
+    <div id="rehabilitation">
+        <div>
+            <h2 class="headingRel">Реабілітація</h2>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="realBox h-100">
+                    <h3>Ботокс</h3>
+                    <ul>
+                        <li>4 години після токсину знаходитись у вертикальному положенні;</li>
+                        <li>5 днів не вживати алкоголь;</li>
+                        <li>5 днів не займатись активним спортом;</li>
+                        <li>14 днів не відвідувати солярій та сауну;</li>
+                        <li>плановий огляд не раніше 14 днів;</li>
+                        <li>уходові або інші ін’єкційні процедури можна проводити після 14 днів введення токсину.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="realBox h-100">
+                    <h3>Губи</h3>
+                    <ul>
+                        <li>3 дні зволожувати губи;</li>
+                        <li>з 3-4го по 14-й день масаж губ;</li>
+                        <li>якщо є схильність до герпесу (вальтрекс 500 мг 1 таблетка на день протягом 5-ти днів).</li>
+                    </ul>
+                    <p>
+                        <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                          Масаж губ
+                        </button>
+                    </p>
+                    <div style="min-height: 120px;">
+                        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                          <div class="card card-body" style="width: 300px;">
+                            Масаж Ви робите з 3-4го дня після процедури збільшення губ. Щодня по 10 секунд до відчуття повної гладкості під пальцями.
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="realBox h-100">
+                    <h3>Нитки COG</h3>
+                    <ul>
+                        <li>німесил 1 таблетка на день, протягом 5-ти днів;</li>
+                        <li>сумамед 500 мг 1 таблетка на день, протягом 3-х днів;</li>
+                        <li>серрата 1 таблетка/2 рази на день, протягом 5-ти днів;</li>
+                        <li>цикло 3 форт 2 капсули/1 раз на день, протягом 7-ми днів;</li>
+                        <li>бандаж (спати або носити ввечері) 2 повних тижня;</li>
+                        <li>йодовий олівець (обробляти раневі отвори) 6 разів на день, протягом 3-х днів.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p id="footr">© 2024 Demy_doctor. All rights reserved. Website development by <a href="https://radmila-code.glitch.me" class="radmila_code">Radmila_Code</a></p>
+
+            <ul class="no-bullets">
+                <li>
+                    <a href="https://www.instagram.com/demy_doctor/" target="_blank">
+                    <img src="Instagram.png" alt="Instagram" class="social-icon"></a>
+                </li>
+                <li>
+                    <a href="https://t.me/dr_demi" target="_blank">
+                    <img src="telegram_3536705 1.png" alt="Telegram" class="social-icon"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Accordion -->
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h5 id="slide1">Контурна пластика губ</h5>
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Контурна пластика губ – сучасний, ефективний метод боротьби з косметичними недоліками за допомогою спеціальних препаратів (філерів). Вони створені на основі гіалуронової кислоти. Це біодеградуючі дермальні гелі, які самостійно розсмоктуються і згодом виводяться природним шляхом. Препарати гіпоалергенні і добре сприймаються організмом без виникнення побічних ефектів.</p>
+                    <p>Збільшення губ філерами з гіалуроновою кислотою користується популярністю серед людей різного віку. Процедура дозволяє додати об’єм, скорегувати форму, усунути дефекти (асиметрію, зморшки в періоральній області), додатково зволожити шкіру. На відміну від хірургічної операції, методика малотравматична.  Процедура характеризується високою ефективністю та безпекою.</p>
+                    <h6>Губи-банти</h6>
+                    <p>«Губи-банти» – унікальна методика поліпшення форми губ, яка робить їх більш гармонійними, але при цьому природними. Проводиться за допомогою гіпоалергенного філера високої щільності. Підходить для збільшення об’єму та корекції косметичних недоліків. Бореться з асиметрією, інтенсивно зволожує. Результат зберігається протягом 9-12 місяців. Методика «Губи-банти» дозволяє скорегувати абсолютно будь-яку форму губ, в тому числі – складні випадки, які неможливо виправити іншими способами. Щоб отримати об'ємні губи з вираженою формою «банти», рекомендується корекція через 1 місяць після процедури.</p>
+                    <h6>Показання до контурної пластики губ</h6>
+                    <ul>Збільшення об’єму губ показано в таких випадках:
+                        <li>Асиметрія;</li>
+                        <li>Тонкі губи;</li>
+                        <li>Вікові зміни в області біля рота (зморшки, заломи);</li>
+                        <li>Наслідки невдалого хірургічного втручання;</li>
+                        <li>Невиразний контур;</li>
+                        <li>Вроджені дефекти;</li>
+                        <li>Опущені куточки рота;</li>
+                        <li>Лущення, сухість.</li>
+                    </ul>
+                    <h6>Протипоказання:</h6>
+                    <ul>
+                        <li>Вагітність і період лактації;</li>
+                        <li>Онкологічні захворювання;</li>
+                        <li>Епілепсія;</li>
+                        <li>Аутоімунні захворювання;</li>
+                        <li>Захворювання крові;</li>
+                        <li>Цукровий діабет та інші хронічні захворювання в стадії декомпенсації;</li>
+                        <li>Запальні захворювання, що супроводжуються підвищеною температурою тіла;</li>
+                        <li>Раніше введені небіодеградуючі ін'єкційні імплантати в зоні проведення процедури;</li>
+                        <li>Захворювання шкіри в місці майбутньої ін'єкції;</li>
+                        <li>Алергічні реакції на будь-який з компонентів препарату;</li>
+                        <li>Схильність до утворення келоїдних рубців.</li>
+                    </ul>
+                    <h6>Підготовка</h6>
+                    <p>Особливої підготовки не потрібно. Бажано за 2-3 дні до процедури утриматися від вживання алкоголю, а також виключити прийом антикоагулянтів (аспірин, гепарин та ін.).</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <h5 id="slide2">Ботулінотерапія</h5>
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Ботулінотерапія – це ін’єкційна процедура профілактики і корекції мімічних зморшок з використанням препарату – ботулотоксину (Dysport). Препарат швидко, якісно і надовго вирішує проблему небажаних мімічних зморшок.</p>
+                    <p>Ботокс, який вводитися підшкірно в проблемних ділянках, викликає розслабленість активних м’язів, що сприяє розгладженню зморшок і шкірних заломів. Також препарат використовується з метою лікування гіпергідрозу (підвищеного потовиділення).</p>
+                    <p>Після введення препарату м’яз тимчасово перестає скорочуватися, що сприяє розгладженню зморшок. Для підтримки постійного ефекту достатньо робити процедуру 2 рази на рік. Процедура введення ботокса не вимагає спеціальної підготовки. Дія препарату настає в середньому через 48-72 години.</p>
+                    <h6>Показання до ботулінотерапії</h6>
+                    <p>
+                        Найбільш ефективна ботулінотерапія при мімічних (дрібних, неглибоких) зморшках. Процедура має накопичувальний ефект. Зверніть увагу, що коли мова йде про статичні (глибокі, вікові) зморшки – ботулінотерапія буде мало ефективна, в таких випадках частіше використовуються наповнювачі на основі гіалуронової кислоти.
+                    </p>
+                    <h6>Процедура ефективна при:</h6>
+                    <ul>
+                        <li>лобових і міжбрівних зморшках;</li>
+                        <li>періорбітальних і періоральних зморшках (гусячі лапки і кісетні зморшки);</li>
+                        <li>шийних зморшках;</li>
+                        <li>вікових зморшках навколо очей та в зоні декольте;</li>
+                        <li>окрім ефективної корекції мімічних зморшок, ботулінотерапія успішно застосовується для позбавлення від зайвого потовиділення в зонах долонь, стоп і пахв.</li>
+                    </ul>
+                    <h6>Протипоказання до ботулінотерапії:</h6>
+                    <ul>
+                        <li>онкологічні захворювання;</li>
+                        <li>запальні процеси в області передбачуваних ін’єкцій;</li>
+                        <li>алергія на білок;</li>
+                        <li>індивідуальне несприйняття ботулотоксину;</li>
+                        <li>порушення згортуваності крові;</li>
+                        <li>вагітність і лактація.</li>
+                    </ul>
+                    <p>Обов’язково розкажіть лікарю про ваші хронічні захворювання та алергії, дотримуйтесь його рекомендацій з підготовки до сеансу ботулінотерапії.</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <h5 id="slide3">Мезоботокс</h5>
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                <p>Мезоботокс – це інноваційна техніка введення ботулінічного нейротоксину типу А з гіалуроновою кислотою, завдяки якій можна використовувати ботулотоксин у мезотерапії поверхнево на шкірі обличчя, шиї та декольте. Це методика, що виникла на стику двох косметологічних процедур – мезотерапії та ботулінотерапії, які успішно доповнюють одна одну. Мезоботокс відрізняється делікатним впливом і дозволяє омолодити шкіру, розгладити дрібні зморшки, підвищити еластичність, покращити колір обличчя та загальний стан шкіри, повернути молодість, красу та здоров’я навіть найчутливішій шкірі.</p>
+                <h6>Показання:</h6>
+                <ul>
+                    <li>Мімічні зморшки в переорбітальній ділянці, навколо рота, в куточках губ.</li>
+                    <li>Провисання шкіри в зоні декольте та шиї.</li>
+                    <li>Розширені пори.</li>
+                    <li>Надмірне вироблення себуму (шкірного сала).</li>
+                    <li>Погіршення стану шкіри (втрата еластичності, нерівний рельєф, хворий колір обличчя).</li>
+                    <li>Купероз.</li>
+                </ul>
+                <h6>Особливості та переваги процедури:</h6>
+                <ul>
+                    <li>Ефективна, малоінвазивна, безпечна процедура.</li>
+                    <li>Недовгий та комфортний реабілітаційний період.</li>
+                    <li>Розведений ботулотоксин вводиться не в м’язи, а підшкірно, тому природна міміка обличчя повністю зберігається.</li>
+                    <li>Ін’єкції ботоксу з гіалуроновою кислотою дозволяють нормалізувати мікроциркуляцію крові, знизити гіперактивність підшкірних судин та значно зменшити інтенсивність почервоніння у пацієнтів з розацеа.</li>
+                    <li>Мезоботокс можна поєднувати з іншими косметологічними процедурами (класичними ін’єкціями ботокс/Dysport, біоревіталізації, пілінгами, деякими апаратними методиками тощо).</li>
+                    <li>Мезоботокс можна використовувати, якщо є протипоказання до традиційного введення препаратів ботокс/Dysport.</li>
+                </ul>
+                <h6>Протипоказання:</h6>
+                <ul>
+                    <li>Вагітність.</li>
+                    <li>Лактація.</li>
+                    <li>Злоякісні новоутворення.</li>
+                    <li>Гострі інфекційні хвороби.</li>
+                    <li>Загострення хронічних захворювань.</li>
+                    <li>Порушення зсідання крові.</li>
+                    <li>Запальні процеси чи дерматологічні захворювання на шкірі у зоні ін’єкції.</li>
+                    <li>Алергія до компонентів препарату.</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <h5 id="slide4">Біоревіталізація</h5>
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                <p>Біоревіталізація – це введення шляхом мікроін’єкцій гіалуронової кислоти в поверхневі шари шкіри. Одна молекула цього препарату затримує вологу в 5 разів більше своєї ваги. Завдяки чому відбувається омолодження шкіри. Ця речовина абсолютно природня для людського організму і синтезується в тканинах з самого народження.</p>
+                    <h6>Основна характеристика</h6>
+                    <p>
+                        Основне завдання уколів біоревіталізації – це боротьба з передчасним старінням шкіри. Дослівно «біоревіталізація» можна перевести, як «природне оживлення», що і є правдою. Дослідження встановили, що підшкірне введення мінімальних доз препарату під час процедури біоревіталізації не просто працює в якості замісної терапії, а активізує вироблення власної ГК і стимулює роботу клітин-фібробластів, що відповідають за синтез колагену і еластину.
+                    </p>
+                    <h6>Основними показаннями до процедури біоревіталізації є:</h6>
+                    <ul>
+                    <li>Дрібні мімічні зморшки;</li>
+                    <li>Зниження тургору і еластичності шкіри;</li>
+                    <li>Тьмяний колір шкірних покривів;</li>
+                    <li>Порушення водного балансу (сухість, лущення);</li>
+                    <li>Гіперфункція сальних залоз (жирний блиск, акне);</li>
+                    <li>Гіперпігментація.</li>
+                    </ul>
+                    <h6>Основні протипоказання:</h6>
+                    <ul>
+                    <li>Епілепсія;</li>
+                    <li>Онкологічне захворювання;</li>
+                    <li>Прийом препаратів, що розріджують кров;</li>
+                    <li>Хвороби системи згортання крові;</li>
+                    <li>Гострі запальні процеси (ГРВІ, герпес);</li>
+                    <li>Алергічні реакції на компоненти препарату.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <h5 id="slide5">Ліполітики</h5>
+            </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Ліполітики – це спеціальні препарати, які ін'єкційно вводять під шкіру на різних ділянках тіла. Ця процедура не лише здатна відкоригувати фігуру, а й допомагає покращити стан шкіри, відновити обмін речовин у тканинах.</p>
+                    <h6>Ключовими перевагами ліполітиків є:</h6>
+                    <p>
+                        <ul>
+                        <li>Швидкий результат у вигляді покращення кровообігу, відновлення обміну речовин і ліпідного обміну;</li>
+                        <li>Здатність точково коригувати невеликі області (наприклад, друге підборіддя);</li>
+                        <li>Процедури ефективні при боротьбі з целюлітом, допомагають зменшити жировий прошарок, покращити стан шкіри;</li>
+                        <li>Зменшення об’ємів живота, ліквідація жирових складок на боках, підкреслення талії;</li>
+                        <li>Мінімальний термін відновлення, нема потреби відмовлятися від звичного ритму життя;</li>
+                        <li>Гіперпігментація.</li>
+                        </ul>
+                        З недоліків можна відзначити невелику болючість процедури та можливість появи синців.
+                        На додаток важливо розуміти, що ліполітики призначені не для загального зниження ваги, а для схуднення у певних місцях.
+                    </p>
+                    <h6>Показання та протипоказання</h6>
+                    <ul><i>Вдатися до ін’єкції ліполітиками можна, якщо у вас є одна з таких причин:</i>
+                        <li>надлишок жиру в області другого підборіддя;</li>
+                        <li>небажані жирові відкладення на шиї та плечах;</li>
+                        <li>виражені щоки;</li>
+                        <li>надмірні жирові відкладення на стегнах, животі та сідницях;</li>
+                        <li>значні жирові скупчення на внутрішній стороні долонь.</li>
+                        <i>Однак не кожному пацієнту рекомендується проведення процедури. Серед протипоказань слід згадати:</i>
+                        <li>вік менше ніж 18 років;</li>
+                        <li>періоди вагітності та годування груддю;</li>
+                        <li>онкологічні патології;</li>
+                        <li>захворювання нирок і печінки;</li>
+                        <li>епілепсія;</li>
+                        <li>ендокринні та деякі аутоімунні хвороби;</li>
+                        <li>порушення згортання крові;</li>
+                        <li>психічні розлади.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                <h5 id="slide6">Нитки COG</h5>
+            </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Ліфтинг із застосуванням ниток COG - різновид тредліфтингу, що передбачає введення в шкіру біодерганізованих ниток з множинними вузликами (насічками), що розходяться / сходяться. Вводяться нитки COG через локорегіональний прокол.</p>
+                    <p>Насічки на нитках - маленькі ущільнення на поверхні, що нагадують вузлики. Вони дозволяють як закріплювати шкіру, а й переміщати її. Наприклад, покращити лицьовий овал, підняти область брів, повік, вилиць тощо. Склад ниток абсолютно безпечний та біологічно сумісний з організмом людини. Згодом (приблизно через 9-10 місяців) ці нитки просто розчиняються у шарах шкіри.</p>
+                    
+                    <!-- <h6>Показання та протипоказання для встановлення.</h6>
+                    <p>Нитки ефективно підтягують шкіру, повертаючи особі привабливий молодий вигляд, але повністю прибрати глибокі зморшки та складки за допомогою їх неможливо. Тому підтяжка нитками можлива у випадках, коли шкіра ще втратила пружність, але вже почали з'являтися перші вікові зміни.</p>
+                    <h6>Основними показаннями для використання ниток є:</h6>
+                    <ul>
+                        <li>зморшки на лобі, які не вдається прибрати з допомогою ботокса;</li>
+                        <li>зморшки на підборідді;</li>
+                        <li>носогубна складка;</li>
+                        <li>зморшки на шиї;</li>
+                        <li>опущення тканин повік;</li>
+                        <li>грижоподібні утворення в області нижніх повік;</li>
+                        <li>утворення шкірних складок у районі вух.</li>
+                    </ul>
+                    <p>Фахівці в галузі косметології заявляють, що у більшості пацієнтів потреба у проведенні ниткової корекції виникає у віці старше 35 років. Однак для отримання найкращого косметичного ефекту нитки для підтяжки обличчя можна використовувати починаючи з 25 років.</p>
+                    <p>Літнім людям цю процедуру зазвичай проводять у складі комплексу процедур, що омолоджують. Тільки так можна одержати оптимальні результати. Основними чинниками, які враховує фахівець, визначаючи показання щодо підтяжки, є вік людини, загальний стан здоров'я, наявність супутніх патологій, товщина шкіри, ступінь її в'ялості, обсяги обличчя.</p>
+                    <h6>Протипоказання:</h6>
+                    <ul>
+                        <li>гострі інфекційні та вірусні захворювання;</li>
+                        <li>непереносимість анестезії;</li>
+                        <li>імунологічні патології;</li>
+                        <li>вагітність, період лактації;</li>
+                        <li>цукровий діабет;</li>
+                        <li>патології, пов'язані з порушенням згортання крові;</li>
+                        <li>наявність в анамнезі онкологічних захворювань;</li>
+                        <li>запалення та опущення м'яких тканин обличчя;</li>
+                        <li>велика товщина шкіри.</li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dissolution -->
+
+    <section id="dissolution">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    <strong>РОЗЧИНЕННЯ (гіарулонідаза)</strong>
+                </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <p>Гіалуронідази це групи ферментів, які розчиняють гіалуронову кислоту. Препарати на їх основі працюють у тій ділянці, де спостерігаються надлишки філера. Розчиняючись дифузно під шкірою, гіалуронідаза розщеплює ГК до низькомолекулярних фрагментів і за 24 години повертає шкіру в колишній стан.
+                        </p>
+                        <h5>Показання:</h5>
+                        <p>
+                        Основними показаннями до лікування гіалуронідазою є, насамперед, ускладнення раніше введеної гіалуронової кислоти або розчинення невдало підібраного наповнювача. Лікування також рекомендовано пацієнтам, які борються з такими проблемами, як загрозливий некроз шкіри та підшкірної клітковини, викликаний введенням гіалуронової кислоти, розлади зору, бурхлива алергічна реакція, поява коків, асиметрія, утворення біоплівки, виникнення непереносимості організму до попередньо введеної гіалуронової кислоти, небажаний ефект витіснення філлера, надмірна кількість філлера з гіалуронової кислоти, збереження набряку через затримку води в місці накладення філлера, поява грудочок і нерівностей, спричинених попереднім і поверхневим введенням гіалуронової кислоти.
+                        </p>
+                        <h5>Протипоказання:</h5>
+                        <p>            
+                        Застосування ферменту гіалуронідази не завжди можливо. Протипоказанням є, зокрема, алергія на отруту комах або бичачий і овечий білки, пошкодження або виразки поверхні шкіри на оброблених ділянках, грибкові, вірусні та бактеріальні інфекції. Якщо у пацієнта є ризик некрозу шкіри та/або підшкірної клітковини чи іншого дуже серйозного ускладнення, єдиним протипоказанням є відмова від згоди на медичне втручання.
+                        У разі планового введення гіалуронідази ще одним протипоказанням є також нереалістичне очікування результатів, які можуть бути отримані, артеріальна гіпертензія, аутоімунні захворювання, вагітність і годування груддю, активний рак.
+                        </p>
+                        <h5>Процедура</h5>
+                        <p>
+                            Лікування не вимагає ніякої підготовки – потрібно звернутися до лікаря без макіяжу, і він продезінфікує місце нанесення ферменту безпосередньо перед уколом. Перед застосуванням гіалуронідази необхідно проконсультуватися з лікарем, який проведе детальний збір анамнезу та забезпечить правильний перебіг процедури.
+                        </p>
+                        <p>
+                            У випадках, коли є показання до застосування ферменту (загроза некрозу шкіри), гіалуронідазу вводять без проведення алергічної проби. В область передпліччя вводять невелику кількість гіалуронідази. Потім місце перевіряють на наявність побічної алергічної реакції. Якщо немає тривожних явищ, гіалуронова кислота розчиниться через 15-30 хвилин.
+                        </p>
+                        <p>
+                            Фермент наноситься за допомогою тонкої голки. Ін’єкція проводиться в ту зону, куди раніше вводили філлер – губи, область носа і т.д. Речовина вводиться в невеликій кількості, безпосередньо на папулу, що утворилася після введення гіалуронової кислоти. Іноді після введення ферменту з’являються невеликі припухлості або синці, але вони дуже швидко зникають. Деякі пацієнти реагують на гіалуронідазу місцевою запальною шкірною реакцією, кропив’янкою.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Study -->
+
+    <div id="study">
+        <div>
+            <h2 class="headingStudy">Навчання</h2>
+        </div>
+
+        <div class="containerStudy">
+            <div class="item one selected">
+                <h4>Demy_doctor</h4>
+                <p class="par">Семінари: розбір препаратів, докладний розбір схем, практична частина з унікалними техніками, авторські методики двох лікарів</p>
+                <a class="infoStudy" href="https://www.instagram.com/demy_doctor/" target="_blank">Дізнатися більше</a>
+            </div>
+    
+            <div class="item two">
+                <h4>Demy_doctor Lips</h4>
+                <p class="par">Контурна пластика губ</p>
+                <a class="infoStudy" href="https://www.instagram.com/demy_doctor/" target="_blank">Дізнатися більше</a>
+            </div>
+    
+            <div class="item three">
+                <h4>Підвищення кваліфікації</h4>
+                <p class="par">Індивідуальний курс міні група 2 доктора</p>
+                <a class="infoStudy" href="https://www.instagram.com/demy_doctor/" target="_blank">Дізнатися більше</a>
+            </div>
+    
+            <div class="item four">
+                <h4>Demy_doctor Full face & Lips</h4>
+                <p class="par">Контурна пластика обличчя та губ</p>
+                <a class="infoStudy" href="https://www.instagram.com/demy_doctor/" target="_blank">Дізнатися більше</a>
+            </div>
+
+            <div class="item five">
+                <h4>Demy_doctor</h4>
+                <p class="par">Курс "Нитки: сучасні методики". Авторські техніки, теорія + практикаю Мононитки, нитки волюметрики, нитки COG, молдинги</p>
+                <a class="infoStudy" href="https://www.instagram.com/demy_doctor/" target="_blank">Дізнатися більше</a>
+            </div>
+    
+            <div class="item six">
+                <h4>Demy_doctor</h4>
+                <p class="par">Online курс для колег</p>
+                <a class="infoStudy" href="https://www.instagram.com/demy_doctor/" target="_blank">Дізнатися більше</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Oder -->
+
+    <div id="oder">
+        <div>
+            <h2 class="headingOder">Замовлення препаратів</h2>
+            <h2 class="headingOder1">AESSOA DEEP</h2>
+        </div>
+        <div class="d-grid gap-2">
+            <a class="btnOder" href="https://t.me/dr_demi" target="_blank">Замовити препарати</a>
+            <a class="btnOder" href="https://www.instagram.com/medfil_ua/" target="_blank">Дізнатися більше</a>
+        </div>
+    </div>
+
+    <!-- Contact Me -->
+
+    <div id="contact">
+        <div class="contactMe">
+            <div class="imgCont">
+                <img class="imgContFoto" src="IMG_7094.jpg" alt="Uliya" width="456", height="723">
+            </div>
+            <div class="contactText">
+                <h2 class="meCont">Запис на будь-яку процедуру <br>
+                    або консультацію!</h2>
+                <br>
+                <p>Графік роботи:</p>
+                <p>
+                    ВТ - ПТ з 10.00 до 18.00 <br>
+                    ПН - день навчання <br>
+                    СБ - НД - НЕ РОБОЧІ ДНІ! <br>
+                </p>
+                <p><img class="mapPin" src="Map pin.png" alt=""  width="28px"> АДРЕСА: м. Дніпро, вул. Старокозацька, б. 38. <br>
+                </p>
+                <p>САЛОН КРАСИ "VIP HAIR" <br></p>
+
+                <div class="mapouter"><div class="gmap_canvas"><iframe src="https://maps.google.com/maps?q=%D0%BC.%20%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE,%20%20%D0%B2%D1%83%D0%BB.%20%D0%A1%D1%82%D0%B0%D1%80%D0%BE%D0%BA%D0%BE%D0%B7%D0%B0%D1%86%D1%8C%D0%BA%D0%B0,%20%D0%B1.%2038&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" frameborder="0" scrolling="no"></iframe><style>.mapouter{display:table;}.gmap_canvas{overflow:hidden;position:relative;background:#fff;}</style><a href="https://www.taxuni.com/w12-form/">W12 Form</a><style>.gmap_canvas iframe{position:relative !important;z-index:2 !important;}.gmap_canvas a{color:#fff !important;position:absolute !important;top:0 !important;left:0 !important;z-index:0 !important;}</style></div></div>
+
+                <a href="https://t.me/dr_demi" target="_blank"><button class="btnCont">Записатись</button></a>
+            </div>
+        </div>
+    
+        <div class="footer">
+            <p id="footr">© 2024 Demy_doctor. All rights reserved. Website development by <a href="https://radmila-code.glitch.me" class="radmila_code">Radmila_Code</a></p>
+
+            <ul class="no-bullets">
+                <li>
+                    <a href="https://www.instagram.com/demy_doctor/" target="_blank">
+                    <img src="Instagram.png" alt="Instagram" class="social-icon"></a>
+                </li>
+                <li>
+                    <a href="https://t.me/dr_demi" target="_blank">
+                    <img src="telegram_3536705 1.png" alt="Telegram" class="social-icon"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

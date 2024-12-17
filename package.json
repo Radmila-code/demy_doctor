@@ -2,7 +2,8 @@
     "name": "demy_doctor",
     "version": "1.0.0",
     "scripts": {
-      "build": "yarn build"
+      "build": "babel src -d lib",
+      "test": "jest"
     },
     "dependencies": {}
   }

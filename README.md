@@ -1,3 +1,10 @@
+<h1 align="center">Hi there, I'm <a href="https://radmila-code.glitch.me" target="_blank">Radmila</a> 
+<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+<h3 align="center">Front-end developer, freelancer and student at the CanSheCode programming school.</h3>
+<br>
+
+<img src="https://github.com/Radmila-code/demy_doctor/blob/main/photo_title_new.jpg" width="200px" alt="Title photo" />
+
 # Demy Doctor Project
 
 Welcome to the Demy Doctor project repository!
